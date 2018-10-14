@@ -4,7 +4,7 @@
   "description": "Deck created with mdx-deck",
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
+    "build": "mdx-deck build --no-html deck.mdx",
     "pdf": "mdx-deck pdf deck.mdx",
     "image": "mdx-deck screenshot deck.mdx",
     "help": "mdx-deck"
@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "mdx-deck": "^1.7.7",
-    "mdx-deck-code-surfer": "^0.4.1",
+    "mdx-deck-code-surfer": "^0.5.3",
     "raw-loader": "^0.5.1"
   },
   "dependencies": {}
